@@ -9,7 +9,7 @@
 
 ### Exercise description
 
-In this exercise your job is to create a simple 3x2 grid layout containing a header element (`h2`, `p`) and five colored boxes in an unordered list, which all have a tilted (`-5deg`) dashed border (see video reference).
+In this exercise your job is to create a simple 3x2 grid layout containing a header element (`h2`, `p`) and five colored boxes in an unordered list, which all have a tilted (`-5deg`) dashed border (see reference below).
 
 The colors to be used are referenced on each list item in the HTML as a custom property. The color of the dashed border is fully opaque, whilst the background color has an opacity value of 20.
 
