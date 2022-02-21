@@ -1,4 +1,5 @@
 {
   "scripts": [],
-  "styles": []
+  "styles": [],
+  "readmeBehavior": "previewFooter"
 }
