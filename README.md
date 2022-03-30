@@ -31,7 +31,7 @@ There are three variables (custom properties) available in this challenge:
 
 ---
 
-![flexible hero video](readme-assets/flexible-hero.webp "flexible hero video")
+![flexible hero video](readme-assets/flexible-hero-1.webp "flexible hero video")
 
 Video
 
