@@ -19,19 +19,9 @@ For more in-depth details, inspect the _technical drawing_ below.
 
 There are three variables (custom properties) available in this challenge:
 
-Term
-: Definition
-
-Term2
-: Definition2
-
-**`--content-width`**
-: The maximum width of the content
-**`--vertical-spacing`**
-:A flexible value for the spacing between each section
-
-**`--bg-gradient`**
-: The gradient to be used as background for the second section
+- **`--content-width`**: The maximum width of the content
+- **`--vertical-spacing`**: A flexible value for the spacing between each section
+- **`--bg-gradient`**: The gradient to be used as background for the second section
 
 `css/demo.css` handles the general typography styling, so you don't have to.
 
@@ -41,7 +31,7 @@ Term2
 
 ---
 
-![flexible hero video](readme-assets/flexible-hero.webm "flexible hero video")
+![flexible hero video](readme-assets/flexible-hero.webp "flexible hero video")
 
 Video
 
