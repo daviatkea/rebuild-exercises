@@ -11,7 +11,7 @@
 
 In this exercise your job is to create a flexible hero section with three "feature cards" bisected by the hero image (`hero.webp`) and the gradient background (`--bg-gradient`) of the succeeding section (see references below).
 
-The height of the hero section (`.feature-section`) is entirely determined by content along with the `--vertical-spacing` value (explained below).
+The height of the hero section (`.feature-section`) — as well as the succeeding section — is entirely determined by the content along with the `--vertical-spacing` value (explained below). No matter the amount of content in each of the sections, the bisection of the feature cards should persist.
 
 On mobile, the cards should be stacked vertically with the second card now being bisected by the hero image and the gradient.
 
