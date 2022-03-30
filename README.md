@@ -25,7 +25,7 @@ There are three variables (custom properties) available in this challenge:
 
 `css/demo.css` handles the general typography styling, so you don't have to.
 
-#### Extra, extra
+#### Extra, extra, extra
 
 As an extra challenge, try to make the hero image curve at the bottom (see the "see through" reference below).
 
