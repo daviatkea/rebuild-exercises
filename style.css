@@ -1,0 +1,10 @@
+/* EXERCISE STYLES */
+:root {
+  --content-width: 1100px;
+  --vertical-spacing: min(12%, 8rem);
+  --bg-gradient: var(--gradient-1);
+}
+
+/* EXERCISE STYLES END */
+
+/* ========== YOUR STYLES BELOW ========== */

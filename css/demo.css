@@ -1,0 +1,91 @@
+:root {
+  --font-size-sm: clamp(0.8rem, 0.28vw + 0.73rem, 0.94rem);
+  --font-size-base: clamp(1rem, 0.5vw + 0.88rem, 1.25rem);
+  --font-size-md: clamp(1.25rem, 0.83vw + 1.04rem, 1.67rem);
+  --font-size-lg: clamp(1.56rem, 1.32vw + 1.23rem, 2.22rem);
+  --font-size-xl: clamp(1.95rem, 2.02vw + 1.45rem, 2.96rem);
+  --font-size-xxl: clamp(2.44rem, 3.01vw + 1.69rem, 3.95rem);
+  --font-size-xxxl: clamp(3.05rem, 4.42vw + 1.95rem, 5.26rem);
+
+  --gradient-1: linear-gradient(
+      45deg,
+      hsl(240deg 100% 20%) 0%,
+      hsl(289deg 100% 21%) 11%,
+      hsl(315deg 100% 27%) 22%,
+      hsl(329deg 100% 36%) 33%,
+      hsl(337deg 100% 43%) 44%,
+      hsl(357deg 91% 59%) 56%,
+      hsl(17deg 100% 59%) 67%,
+      hsl(34deg 100% 53%) 78%,
+      hsl(45deg 100% 50%) 89%,
+      hsl(55deg 100% 50%) 100%
+    )
+    0 / cover;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+ul:where([class]) {
+  padding: 0;
+  list-style: none;
+}
+
+[contenteditable] {
+  outline: none;
+  box-shadow: none;
+}
+
+header:is(body > *) {
+  position: sticky;
+  inset-block-start: 0;
+  background: hsl(0 0% 0% / 95%);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  padding: 1rem max(1rem, (100% - var(--content-width)) / 2);
+  z-index: 10;
+}
+
+.logo svg {
+  inline-size: 40px;
+  display: block;
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  line-height: 1.1111111;
+}
+
+h2 {
+  font-size: var(--font-size-lg);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.35;
+}
+
+:is(h1, h2) + p {
+  font-size: var(--font-size-base);
+}
+
+p {
+  font-size: 1rem;
+  max-inline-size: 65ch;
+  margin-block: 1rem;
+}
+
+:is(h1, h2, h3, p):where(:first-child),
+:is(h1, h2, h3) + * {
+  margin-block-start: 0;
+}
+
+:is(h1, h2, h3, p):where(:last-child) {
+  margin-block-end: 0;
+}
