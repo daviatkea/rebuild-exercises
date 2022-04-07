@@ -4,8 +4,7 @@
 
 ### Rules
 
-- You may make changes to "index.html"
-- You may make changes to "css/style.css"
+- 🚫 You may make changes to "index.html"; however, you are not allowed to alter the order of the elements
 
 ### Exercise description
 
