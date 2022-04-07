@@ -10,6 +10,8 @@
 
 In this exercise your job is to create a responsive layout, which goes from a two-column layout to a single-column layout controlled by a single media query rule. The `article`s with the classes of `.a` and `.b` are in the left column, and `.c`, `.d`, and `.e` are in the right column on larger screen sizes. The order of the `article` elements changes once the viewport is smaller than `40rem` (see video reference).
 
+**NB!** In order to solve this layout, you may look into the [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display).
+
 <table>
     <thead>
         <tr>
