@@ -9,7 +9,7 @@
 
 ### Exercise description
 
-In this exercise your job is to create a flexible layout of seven boxes, which are of equal sizes regardless of the width of the content inside each box. The boxes are laid out next to each other over three rows; the top and bottom rows in pairs of two towards the center, and the middle row accomodate three of the seven boxes (see video reference).
+In this exercise your job is to create a flexible layout of seven boxes, which are of equal sizes regardless of the width of the content inside each box. The width of the boxes are determined by the box containing the most text content (plus some padding). The boxes are laid out next to each other over three rows; the top and bottom rows in pairs of two towards the center, and the middle row accomodate three of the seven boxes (see video reference).
 
 References:
 
