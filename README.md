@@ -5,7 +5,7 @@
 ### Rules
 
 - 🚫 You may _NOT_ make changes to "index.html"
-- ✅ You may only make changes to "css/style.css"
+- ✅ You may only make changes to "style.css"
 
 ### Exercise description
 
